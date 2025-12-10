@@ -1,0 +1,27 @@
+# 1. Python Virtual Environment
+# Exclude the entire virtual environment directory
+venv/
+
+# 2. Dependencies and Compilation
+# Byte-compiled files
+__pycache__/
+*.pyc
+
+# Operating System Files
+.DS_Store # macOS files
+Thumbs.db # Windows files
+
+# 3. Data and Large Files
+# Exclude the entire dataset directory since it's typically very large
+DATASET/
+
+# 4. TensorFlow/Keras Models
+# Exclude the trained model file(s) which can be large binaries
+# If you used the previous code, this is the name:
+*.keras
+*.h5
+best_emotion_model.keras
+
+# 5. Jupyter Notebook Output
+# Exclude checkpoint directories and large output data
+.ipynb_checkpoints
